@@ -1,0 +1,38 @@
+%% Songify Music Player Architecture Diagram
+graph TD
+    %% Components
+    UI[User Interface\n- Provides: IThemeSelector, IPlaybackControls\n- Requires: IMusicManager, INotificationManager]
+    Playback[Playback Engine\n- Provides: IAudioPlayback\n- Uses: MediaPlayer/ExoPlayer]
+    Library[Music Library Manager\n- Provides: IMusicManager]
+    Download[Download Manager\n- Provides: IDownloadService]
+    Notify[Notification Manager\n- Provides: INotificationManager]
+    Theme[Theme Manager\n- Provides: IThemeSelector]
+    AI[AI Recommender\n- Optional\n- Provides: IAIRecommendation]
+    Storage[Storage/Filesystem\n- Provides: IAudioFileAccess, IStorageAccess]
+
+    %% Android System (External)
+    Android[Android System]
+    MediaPlayer[MediaPlayer/ExoPlayer]
+    AndroidFS[File System]
+    AndroidNotify[Notification System]
+
+    %% Relationships
+    UI -->|uses| Library
+    UI -->|uses| Notify
+    Playback -->|uses| Storage
+    Library -->|uses| Storage
+    Download -->|uses| Storage
+    Notify -->|controls| Playback
+    Theme -->|implements| UI
+    AI -.->|optional| Library
+
+    %% External Dependencies
+    Playback -.-> MediaPlayer
+    Notify -.-> AndroidNotify
+    Storage -.-> AndroidFS
+
+    %% Styling
+    classDef component fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef external fill:#eee,stroke-dasharray: 5 5;
+    class UI,Playback,Library,Download,Notify,Theme,AI,Storage component;
+    class Android,MediaPlayer,AndroidFS,AndroidNotify external;

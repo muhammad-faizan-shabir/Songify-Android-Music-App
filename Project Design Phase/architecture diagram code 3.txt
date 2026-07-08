@@ -1,0 +1,89 @@
+%% Songify Music Player Architecture - 5 Zone Version (Large Text)
+flowchart TD
+    %% ========== STYLE DEFINITIONS ==========
+    classDef frontend fill:#E3F2FD,stroke:#1976D2,font-size:16px
+    classDef backend fill:#E8F5E9,stroke:#388E3C,font-size:16px
+    classDef api fill:#FFF3E0,stroke:#FFA000,font-size:16px
+    classDef micro fill:#FCE4EC,stroke:#E91E63,font-size:16px
+    classDef player fill:#EDE7F6,stroke:#673AB7,font-size:16px
+    classDef note fill:#ffffff,stroke:#666,font-size:14px
+
+    %% ========== ZONE 1: UI FRONTEND ==========
+    subgraph UI["Frontend (User Interface)"]
+        direction TB
+        HomeScreen[["Home Screen\n• Browse music\n• Recent plays"]]
+        PlayerUI[["Player Interface\n• Play/pause\n• Seek bar\n• Volume"]]
+        PlaylistUI[["Playlist Manager\n• Create/edit\n• Reorder"]]
+        ThemeUI[["Theme Selector\n• Dark/light\n• Accents"]]
+        NotificationsUI[["Notifications\n• Player controls\n• Track info"]]
+        
+        HomeScreen --> PlayerUI
+        HomeScreen --> PlaylistUI
+        HomeScreen --> ThemeUI
+        PlayerUI --> NotificationsUI
+    end
+
+    %% ========== ZONE 2: BACKEND ==========
+    subgraph Backend["Backend Services"]
+        direction TB
+        UserAuth[["User Authentication\n• Login/security\n• Preferences"]]
+        DataProcessing[["Data Processing\n• Format conversion\n• Metadata"]]
+        Analytics[["Usage Analytics\n• Play history\n• Favorites"]]
+        SyncService[["Cloud Sync\n• Backup/Restore\n• Cross-device"]]
+    end
+
+    %% ========== ZONE 3: API LAYER ==========
+    subgraph API["API Layer (Music Metadata)"]
+        direction TB
+        MetadataAPI[["Metadata API\n• Artist/Album\n• Genre/Tags"]]
+        SearchAPI[["Search API\n• Full-text\n• Filters"]]
+        RecommendationsAPI[["Recommendations\n• Similar artists\n• Mood-based"]]
+        LyricsAPI[["Lyrics API\n• Synchronized\n• Translations"]]
+    end
+
+    %% ========== ZONE 4: MICROSERVICES ==========
+    subgraph Microservices["Core Microservices"]
+        direction TB
+        PlaybackService[["Playback Service\n• Queue management\n• Crossfade"]]
+        DownloadService[["Download Service\n• Offline cache\n• Quality options"]]
+        CachingService[["Caching Service\n• Fast retrieval\n• Pre-buffer"]]
+        PreferenceService[["Preference Service\n• Audio settings\n• Equalizer"]]
+    end
+
+    %% ========== ZONE 5: ANDROID EXOPLAYER ==========
+    subgraph Player["Android ExoPlayer Layer"]
+        direction TB
+        AudioEngine[["Audio Engine\n• Stream decoding\n• Format support"]]
+        Decoder[["Media Decoder\n• Codec handling\n• Fallbacks"]]
+        Renderer[["Audio Renderer\n• Low-latency\n• Effects pipeline"]]
+        DRM[["DRM Manager\n• License handling\n• Secure playback"]]
+    end
+
+    %% ========== CONNECTIONS ==========
+    %% Frontend to Backend
+    UI -->|API Calls| Backend
+    UI -->|Control Commands| Microservices
+    
+    %% Backend to APIs
+    Backend -->|Metadata Requests| API
+    Backend -->|Store Preferences| PreferenceService
+    
+    %% Microservices to Player
+    Microservices -->|Audio Streams| Player
+    PlaybackService -->|Controls| AudioEngine
+    DownloadService -->|Cached Files| Decoder
+    
+    %% APIs to Microservices
+    API -->|Metadata| PlaybackService
+    API -->|Search Results| CachingService
+    
+    %% Player to UI Feedback
+    Player -->|Playback Events| UI
+    Player -->|Status Updates| NotificationsUI
+
+    %% ========== APPLY STYLES ==========
+    class UI frontend
+    class Backend backend
+    class API api
+    class Microservices micro
+    class Player player

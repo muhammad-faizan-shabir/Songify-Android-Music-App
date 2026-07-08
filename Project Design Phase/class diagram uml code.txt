@@ -1,0 +1,100 @@
+@startuml
+
+' === Core Classes ===
+class User {
+  - userId: String
+  - username: String
+  - email: String
+  - password: String
+  - preferences: Preferences
+  + login(): boolean
+  + logout(): void
+  + updateProfile(): void
+}
+
+class Preferences {
+  - theme: Theme
+  - playbackMode: PlaybackMode
+  + setTheme(theme: Theme): void
+  + setPlaybackMode(mode: PlaybackMode): void
+}
+
+class MusicPlayer {
+  - currentTrack: Track
+  - isPlaying: boolean
+  + play(track: Track): void
+  + pause(): void
+  + skip(): void
+  + previous(): void
+  + toggleShuffle(): void
+  + toggleRepeat(): void
+}
+
+class Playlist {
+  - playlistId: String
+  - name: String
+  - tracks: List<Track>
+  + addTrack(track: Track): void
+  + removeTrack(track: Track): void
+  + rename(newName: String): void
+}
+
+class Track {
+  - trackId: String
+  - title: String
+  - artist: String
+  - album: String
+  - duration: float
+  - filePath: String
+  + getInfo(): String
+}
+
+class DownloadManager {
+  + downloadTrack(track: Track): void
+  + deleteDownloadedTrack(track: Track): void
+}
+
+class StorageService {
+  + saveFile(filePath: String): void
+  + deleteFile(filePath: String): void
+}
+
+class NotificationManager {
+  + showPlaybackNotification(track: Track): void
+  + clearNotification(): void
+}
+
+class ThemeManager {
+  + applyTheme(theme: Theme): void
+  + getCurrentTheme(): Theme
+}
+
+class RecommendationEngine {
+  + generateRecommendations(user: User): List<Track>
+}
+
+' === Enumerations ===
+enum Theme {
+  LIGHT
+  DARK
+}
+
+enum PlaybackMode {
+  NORMAL
+  SHUFFLE
+  REPEAT
+}
+
+' === Relationships ===
+User --> Preferences
+User --> Playlist
+MusicPlayer --> Track
+Playlist --> Track
+DownloadManager --> Track
+DownloadManager --> StorageService
+NotificationManager --> Track
+ThemeManager --> Theme
+RecommendationEngine --> User
+RecommendationEngine --> Track
+
+@enduml

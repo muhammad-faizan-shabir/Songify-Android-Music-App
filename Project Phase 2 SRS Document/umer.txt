@@ -1,0 +1,32 @@
+Q1) What are the most important features you look for in a music player app?
+
+I look for good audio quality, no advertisements, ease of use and a clean interface to help navigate.
+
+Q2) Do you use features like shuffle and repeat often? Would you like to see these in a music player app?
+
+Yes, I do use them often especially repeat once I get hooked to a song. I would like to see these in the app.
+
+Q3) How would you like your music library to be organized?
+
+I would like my music library to be organized by artists mostly. Plus, a recently played section is also something I would like to see in music player apps.
+
+Q4) Do you prefer theme customization?
+
+While I am indifferent to theme customization, I do enjoy having dark mode turned on.
+
+Q5) Do you prefer having a home screen widget or notification bar controls for quick access to playback?
+
+Yes, I would. It is convenient and also mitigates the need to open the app directly.
+
+Q6) Have you used apps like Spotify, Google Play Music, or Apple Music? if so, What do you like or dislike about them?
+
+No, I personally have not used the apps mentioned in the question. My experience is limited to Mi Music only and it comes with its notable con being advertisements after every song.
+
+Q7) Are there any features that are missing in our competitor's applications that you would prefer in this app?
+
+A smart music discovery feature with personalized recommendations based on listening habits, plus seamless offline playlist downloads, would be great.
+
+Q8) Are there any features that may sway you to shift to our application?
+
+An ad-free experience, a clean interface, and seamless offline playback would definitely make me consider switching to your app. Additionally, a smart music discovery feature with personalized recommendations would be a great bonus.
+

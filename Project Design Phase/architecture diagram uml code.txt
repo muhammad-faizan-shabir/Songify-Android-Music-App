@@ -1,0 +1,70 @@
+@startuml
+
+' === Songify Architecture Diagram with Microservices ===
+package "Client Side (Frontend)" {
+  [User Interface] --> [MusicPlayer]
+  [User Interface] --> [PlaylistManager]
+  [User Interface] --> [ThemeManager]
+  [User Interface] --> [NotificationManager]
+}
+
+package "Application Layer (Client Logic)" {
+  [MusicPlayer] --> [EventManager]
+  [PlaylistManager] --> [PlaylistService]
+  [ThemeManager] ..|> IEventListener
+  [NotificationManager] ..|> IEventListener
+  [RecommendationEngine]
+  [EventManager] --> IEventListener
+}
+
+package "Microservices (Backend APIs)" {
+  [UserService] --> [UserRepository]
+  [TrackService] --> [TrackRepository]
+  [PlaylistService] --> [PlaylistRepository]
+  [RecommendationService] --> [UserService]
+  [RecommendationService] --> [TrackService]
+
+  [API Gateway] --> [UserService]
+  [API Gateway] --> [TrackService]
+  [API Gateway] --> [PlaylistService]
+  [API Gateway] --> [RecommendationService]
+}
+
+package "Repository Layer" {
+  [UserRepository]
+  [TrackRepository]
+  [PlaylistRepository]
+}
+
+package "Storage" {
+  [StorageService] --> [Local File System / Cloud Storage]
+  [DownloadManager] --> [StorageService]
+}
+
+' === Interfaces ===
+interface IEventListener {
+  + onEvent(event: Event): void
+}
+
+' === Notes ===
+note right of [User Interface]
+  Handles user interaction
+  and sends commands to app layer
+end note
+
+note right of [EventManager]
+  Publishes events to all
+  subscribed listeners (Pub-Sub)
+end note
+
+note right of [Repositories]
+  Responsible for data access
+  (DB or external API)
+end note
+
+note right of [API Gateway]
+  Routes client requests
+  to appropriate microservices
+end note
+
+@enduml

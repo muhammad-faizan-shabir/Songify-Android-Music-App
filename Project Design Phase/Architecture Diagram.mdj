@@ -1,0 +1,1528 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "GCPModel",
+			"_id": "AAAAAAGOs3Ir/Wf12lI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "GCPModel1",
+			"ownedElements": [
+				{
+					"_type": "GCPDiagram",
+					"_id": "AAAAAAGOs3Ir/Wf21E8=",
+					"_parent": {
+						"$ref": "AAAAAAGOs3Ir/Wf12lI="
+					},
+					"name": "GCPDiagram1"
+				}
+			]
+		},
+		{
+			"_type": "AWSModel",
+			"_id": "AAAAAAGWCyoVFWhyQ9c=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "AWSModel1",
+			"ownedElements": [
+				{
+					"_type": "AWSDiagram",
+					"_id": "AAAAAAGWCyoVFWhzI4Q=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "AWSDiagram1",
+					"ownedViews": [
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCy5DFWkkJTE=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCy5DFWklhUM=",
+									"_parent": {
+										"$ref": "AAAAAAGWCy5DFWkkJTE="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 274,
+									"top": 330,
+									"width": 556,
+									"height": 17,
+									"text": "SONGIFY (CLIENT) (PUBLISHER) (APPLICATION LAYER)",
+									"wordWrap": true
+								}
+							],
+							"containedViews": [
+								{
+									"$ref": "AAAAAAGWCzU+u2mKwU0="
+								},
+								{
+									"$ref": "AAAAAAGWCzSkVGl9Cqs="
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 264,
+							"top": 320,
+							"width": 576,
+							"height": 480,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCy5DFWklhUM="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCy6nqWkwB4A=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCy6nqWkxDeI=",
+									"_parent": {
+										"$ref": "AAAAAAGWCy6nqWkwB4A="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 906,
+									"top": 546,
+									"width": 172,
+									"height": 34,
+									"text": "DEEZER API (SERVER)",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 896,
+							"top": 536,
+							"width": 192,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCy6nqWkxDeI="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCy98GGk7dII=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCy98GGk5hOQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCy98GGk8Zjc=",
+									"_parent": {
+										"$ref": "AAAAAAGWCy98GGk7dII="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 1154,
+									"top": 538,
+									"width": 188,
+									"height": 34,
+									"text": "Music Catalog Database (Repository)",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 1144,
+							"top": 528,
+							"width": 208,
+							"height": 64,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCy98GGk8Zjc="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCy/qUGlEDwY=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCy/qUGlC018="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCy/qUGlFVyY=",
+									"_parent": {
+										"$ref": "AAAAAAGWCy/qUGlEDwY="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCy/qUGlC018="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1116,
+									"top": 539,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCy/qUGlEDwY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCy98GGk7dII="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCy6nqWkwB4A="
+							},
+							"lineStyle": 2,
+							"points": "1088:560;1144:560",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCy/qUGlFVyY="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCzBlemlVklM=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzBlemlTdCM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCzBlemlWp6k=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzBlemlVklM="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCzBlemlTdCM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 1115,
+									"top": 569,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCzBlemlVklM="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCy6nqWkwB4A="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCy98GGk7dII="
+							},
+							"lineStyle": 2,
+							"points": "1144:560;1088:560",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzBlemlWp6k="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCzOeoWleSzs=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzOeoWlcFMQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCzOeoWlfSS0=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzOeoWleSzs="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCzOeoWlcFMQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 868,
+									"top": 539,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCzOeoWleSzs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCy6nqWkwB4A="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"lineStyle": 2,
+							"points": "840:560;896:560",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzOeoWlfSS0="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCzOqs2lnybk=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzOqs2llKUI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCzOqs2lowSA=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzOqs2lnybk="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCzOqs2llKUI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 867,
+									"top": 569,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCzOqs2lnybk="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCy6nqWkwB4A="
+							},
+							"lineStyle": 2,
+							"points": "896:560;840:560",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzOqs2lowSA="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzU+u2mKwU0=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzU+ummIngE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzU+u2mLkXA=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzU+u2mKwU0="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 306,
+									"top": 594,
+									"width": 508,
+									"height": 17,
+									"text": "Backend Layer",
+									"wordWrap": true
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 296,
+							"top": 584,
+							"width": 528,
+							"height": 184,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzU+u2mLkXA="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzXM3mmXGnE=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzXM3mmVlvQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzXM3mmYgC0=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzXM3mmXGnE="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 402,
+									"top": 874,
+									"width": 356,
+									"height": 17,
+									"text": "OS API Layer",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 392,
+							"top": 864,
+							"width": 376,
+							"height": 208,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzXM3mmYgC0="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCzaPk2mktLs=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzaPkmmiHxo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCzaPk2mlT6U=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzaPk2mktLs="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCzaPkmmiHxo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 545,
+									"top": 825,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCzaPk2mktLs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCzXM3mmXGnE="
+							},
+							"lineStyle": 2,
+							"points": "560:864;560:800",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzaPk2mlT6U="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCzalQmmuGVg=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzalQmmsuPA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCzalQ2mvj9c=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzalQmmuGVg="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCzalQmmsuPA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 574,
+									"top": 825,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCzalQmmuGVg="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCzXM3mmXGnE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"lineStyle": 2,
+							"points": "560:800;560:864",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzalQ2mvj9c="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzeKF2nL11I=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzeKFmnJF38="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzeKF2nMJ28=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzeKF2nL11I="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 434,
+									"top": 906,
+									"width": 116,
+									"height": 34,
+									"text": "Local Storage (Repository)",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 424,
+							"top": 896,
+							"width": 136,
+							"height": 54,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzeKF2nMJ28="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzf1hWnY+e4=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzf1hWnWybg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzf1hWnZZFw=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzf1hWnY+e4="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 610,
+									"top": 906,
+									"width": 124,
+									"height": 34,
+									"text": "Android Music Player",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 600,
+							"top": 896,
+							"width": 144,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzf1hWnZZFw="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzSkVGl9Cqs=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzSkVGl7eC8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzSkVGl+To0=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzSkVGl9Cqs="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 306,
+									"top": 362,
+									"width": 508,
+									"height": 17,
+									"text": "User Interface Layer",
+									"wordWrap": true
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGWCy5DFWkkJTE="
+							},
+							"containedViews": [
+								{
+									"$ref": "AAAAAAGWCz/szmpOwbw="
+								},
+								{
+									"$ref": "AAAAAAGWCz+RMGpEbyY="
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 296,
+							"top": 352,
+							"width": 528,
+							"height": 192,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzSkVGl+To0="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCzkYbGnoWzU=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCzkYbGnmadM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCzkYbGnp1wM=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzkYbGnoWzU="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 434,
+									"top": 962,
+									"width": 118.00927734375,
+									"height": 68,
+									"text": "Notification Manager (Message broker/bus)",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 424,
+							"top": 952,
+							"width": 138.00927734375,
+							"height": 92,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCzkYbGnp1wM="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCz0knGn0gUU=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz0knGnyp3s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCz0knGn1/Ww=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz0knGn0gUU="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 610,
+									"top": 970,
+									"width": 124,
+									"height": 34,
+									"text": "Notification Bar (Subscriber)",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 600,
+							"top": 960,
+							"width": 144,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz0knGn1/Ww="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWCz1Nkmn9Tl8=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz1NkWn7s8s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWCz1Nkmn+pqA=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz1Nkmn9Tl8="
+									},
+									"model": {
+										"$ref": "AAAAAAGWCz1NkWn7s8s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 581,
+									"top": 968,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWCz1Nkmn9Tl8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCz0knGn0gUU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCzkYbGnoWzU="
+							},
+							"lineStyle": 2,
+							"points": "562:989;600:989",
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz1Nkmn+pqA="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCz84pWoy+Ys=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz84pWow3qw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCz84pWozccM=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz84pWoy+Ys="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 330,
+									"top": 402,
+									"width": 124,
+									"height": 17,
+									"text": "Home Screen",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 320,
+							"top": 392,
+							"width": 144,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz84pWozccM="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCz9aC2o7QpA=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz9aC2o5i8g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCz9aC2o8bvU=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz9aC2o7QpA="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 330,
+									"top": 466,
+									"width": 124,
+									"height": 34,
+									"text": "Playlist Content Screen",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 320,
+							"top": 456,
+							"width": 144,
+							"height": 74,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz9aC2o8bvU="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0C7sGpeH00=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0C7sGpc/c8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0C7sGpf0VM=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0C7sGpeH00="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 682,
+									"top": 402,
+									"width": 124,
+									"height": 34,
+									"text": "Download Prompt Screen",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 672,
+							"top": 392,
+							"width": 144,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0C7sGpf0VM="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWC0dOwGpxRoI=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0dOv2pvKZg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWC0dOwGpye2I=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0dOwGpxRoI="
+									},
+									"model": {
+										"$ref": "AAAAAAGWC0dOv2pvKZg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 545,
+									"top": 557,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWC0dOwGpxRoI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCzSkVGl9Cqs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCzU+u2mKwU0="
+							},
+							"lineStyle": 2,
+							"points": "560:584;560:544",
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0dOwGpye2I="
+							}
+						},
+						{
+							"_type": "AWSArrowView",
+							"_id": "AAAAAAGWC0dY+mp6L3Q=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0dY+Wp4C6I="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGWC0dY+mp77uI=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0dY+mp6L3Q="
+									},
+									"model": {
+										"$ref": "AAAAAAGWC0dY+Wp4C6I="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 574,
+									"top": 557,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGWC0dY+mp6L3Q="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;17;0",
+							"head": {
+								"$ref": "AAAAAAGWCzU+u2mKwU0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGWCzSkVGl9Cqs="
+							},
+							"lineStyle": 2,
+							"points": "560:544;560:584",
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0dY+mp77uI="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0d5jWqD5SQ=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0d5jWqB2eg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0d5jWqEyoM=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0d5jWqD5SQ="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 338,
+									"top": 626,
+									"width": 118.00927734375,
+									"height": 34,
+									"text": "Music Player Manager",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 328,
+							"top": 616,
+							"width": 138.00927734375,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0d5jWqEyoM="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0j8r2qS4YI=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0j8r2qQJ40="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0j8sGqTqdw=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0j8r2qS4YI="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 506,
+									"top": 626,
+									"width": 118.00927734375,
+									"height": 34,
+									"text": "Download Manager",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 496,
+							"top": 616,
+							"width": 138.00927734375,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0j8sGqTqdw="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0mEcmqeZn8=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0mEcmqcmwc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0mEc2qfJ8I=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0mEcmqeZn8="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 666,
+									"top": 626,
+									"width": 124,
+									"height": 34,
+									"text": "Storage Handler",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 656,
+							"top": 616,
+							"width": 144,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0mEc2qfJ8I="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0no0mqoLlo=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0no0mqm1LU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0no0mqpBOc=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0no0mqoLlo="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 338,
+									"top": 698,
+									"width": 118.00927734375,
+									"height": 34,
+									"text": "Theme Manager",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 328,
+							"top": 688,
+							"width": 138.00927734375,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0no0mqpBOc="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWC0pLB2qxi8E=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWC0pLB2qveXU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWC0pLB2qyZAc=",
+									"_parent": {
+										"$ref": "AAAAAAGWC0pLB2qxi8E="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 506,
+									"top": 698,
+									"width": 116,
+									"height": 34,
+									"text": "Notification Manager",
+									"wordWrap": true
+								}
+							],
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 496,
+							"top": 688,
+							"width": 136,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWC0pLB2qyZAc="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCz/szmpOwbw=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz/szmpMPDo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCz/szmpP1+E=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz/szmpOwbw="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 682,
+									"top": 474,
+									"width": 124,
+									"height": 34,
+									"text": "Music Search Screen",
+									"wordWrap": true
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGWCzSkVGl9Cqs="
+							},
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 672,
+							"top": 464,
+							"width": 144,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz/szmpP1+E="
+							}
+						},
+						{
+							"_type": "AWSGenericGroupView",
+							"_id": "AAAAAAGWCz+RMGpEbyY=",
+							"_parent": {
+								"$ref": "AAAAAAGWCyoVFWhzI4Q="
+							},
+							"model": {
+								"$ref": "AAAAAAGWCz+RMGpCcOo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWCz+RMGpFOsw=",
+									"_parent": {
+										"$ref": "AAAAAAGWCz+RMGpEbyY="
+									},
+									"lineColor": "#232F3E",
+									"font": "Arial;17;0",
+									"left": 506,
+									"top": 434,
+									"width": 124,
+									"height": 34,
+									"text": "Music Playback Screen",
+									"wordWrap": true
+								}
+							],
+							"containerView": {
+								"$ref": "AAAAAAGWCzSkVGl9Cqs="
+							},
+							"lineColor": "#232F3E",
+							"font": "Arial;17;0",
+							"containerChangeable": true,
+							"left": 496,
+							"top": 424,
+							"width": 144,
+							"height": 74,
+							"nameLabel": {
+								"$ref": "AAAAAAGWCz+RMGpFOsw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCy5DFGkimEc=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "SONGIFY (CLIENT) (PUBLISHER) (APPLICATION LAYER)",
+					"ownedElements": [
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCzOeoWlcFMQ=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							}
+						},
+						{
+							"_type": "AWSGenericGroup",
+							"_id": "AAAAAAGWCzU+ummIngE=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"name": "Backend Layer",
+							"ownedElements": [
+								{
+									"_type": "AWSArrow",
+									"_id": "AAAAAAGWC0dOv2pvKZg=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzU+ummIngE="
+									},
+									"source": {
+										"$ref": "AAAAAAGWCzU+ummIngE="
+									},
+									"target": {
+										"$ref": "AAAAAAGWCzSkVGl7eC8="
+									}
+								}
+							]
+						},
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCzalQmmsuPA=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCzXM3mmVlvQ="
+							}
+						},
+						{
+							"_type": "AWSGenericGroup",
+							"_id": "AAAAAAGWCzSkVGl7eC8=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							},
+							"name": "User Interface Layer",
+							"ownedElements": [
+								{
+									"_type": "AWSArrow",
+									"_id": "AAAAAAGWC0dY+Wp4C6I=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzSkVGl7eC8="
+									},
+									"source": {
+										"$ref": "AAAAAAGWCzSkVGl7eC8="
+									},
+									"target": {
+										"$ref": "AAAAAAGWCzU+ummIngE="
+									}
+								},
+								{
+									"_type": "AWSGenericGroup",
+									"_id": "AAAAAAGWCz/szmpMPDo=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzSkVGl7eC8="
+									},
+									"name": "Music Search Screen"
+								},
+								{
+									"_type": "AWSGenericGroup",
+									"_id": "AAAAAAGWCz+RMGpCcOo=",
+									"_parent": {
+										"$ref": "AAAAAAGWCzSkVGl7eC8="
+									},
+									"name": "Music Playback Screen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCy6nqWkuQmM=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "DEEZER API (SERVER)",
+					"ownedElements": [
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCy/qUGlC018=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCy98GGk5hOQ="
+							}
+						},
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCzOqs2llKUI=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCy98GGk5hOQ=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Music Catalog Database (Repository)",
+					"ownedElements": [
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCzBlemlTdCM=",
+							"_parent": {
+								"$ref": "AAAAAAGWCy98GGk5hOQ="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCy98GGk5hOQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCy6nqWkuQmM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCzXM3mmVlvQ=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "OS API Layer",
+					"ownedElements": [
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCzaPkmmiHxo=",
+							"_parent": {
+								"$ref": "AAAAAAGWCzXM3mmVlvQ="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCzXM3mmVlvQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCy5DFGkimEc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCzeKFmnJF38=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Local Storage (Repository)"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCzf1hWnWybg=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Android Music Player"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCzkYbGnmadM=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Notification Manager (Message broker/bus)",
+					"ownedElements": [
+						{
+							"_type": "AWSArrow",
+							"_id": "AAAAAAGWCz1NkWn7s8s=",
+							"_parent": {
+								"$ref": "AAAAAAGWCzkYbGnmadM="
+							},
+							"source": {
+								"$ref": "AAAAAAGWCzkYbGnmadM="
+							},
+							"target": {
+								"$ref": "AAAAAAGWCz0knGnyp3s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCz0knGnyp3s=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Notification Bar (Subscriber)"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCz84pWow3qw=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Home Screen"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWCz9aC2o5i8g=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Playlist Content Screen"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0C7sGpc/c8=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Download Prompt Screen"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0d5jWqB2eg=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Music Player Manager"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0j8r2qQJ40=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Download Manager"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0mEcmqcmwc=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Storage Handler"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0no0mqm1LU=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Theme Manager"
+				},
+				{
+					"_type": "AWSGenericGroup",
+					"_id": "AAAAAAGWC0pLB2qveXU=",
+					"_parent": {
+						"$ref": "AAAAAAGWCyoVFWhyQ9c="
+					},
+					"name": "Notification Manager"
+				}
+			]
+		}
+	]
+}
